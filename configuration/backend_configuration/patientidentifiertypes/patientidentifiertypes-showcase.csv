@@ -1,0 +1,2 @@
+Uuid,Void/Retire,Name,Description,Required,Format,Format description,Validator,Location behavior,Uniqueness behavior
+a71403f3-8584-4289-ab41-2b4e5570bd45,,SSN,Social Security Number,FALSE,^[A-Z]{1}-[0-9]{7}$,"Identifier must be exactly one uppercase letter, followed by a dash and exactly 7 digits. Example: A-0010902",,NOT_USED,UNIQUE
